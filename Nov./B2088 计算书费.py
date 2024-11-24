@@ -1,0 +1,13 @@
+a,b,c,d,e,f,g,h,i,j = input().split()
+a = int(a)
+b = int(b)
+c = int(c)
+d = int(d)
+e = int(e)
+f = int(f)
+g = int(g)
+h = int(h)
+i = int(i)
+j = int(j)
+n = 28.9 * a + 32.7 * b + 45.6 * c + 78 * d + 35 * e + 86.2 * f + 27.8 * g + 43 * h + 56 * i + 65 * j
+print('%.1f' %n)
