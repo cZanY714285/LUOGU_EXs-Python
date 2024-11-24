@@ -1,0 +1,5 @@
+x,n = input().split(' ')
+x = float(x)
+n = int(n)
+r = (x ** (n+1) - 1) / (x - 1)
+print('%.2f'%r)
